@@ -1,4 +1,7 @@
-
+from openai import AzureOpenAI
+endpoint = "https://25695a3201-2301-resource.services.ai.azure.com/api/projects/25695a3201-2301"
+api_key = "C46Hj82fsbco8MyWQvIBjr4jWRGiRONzslwAjNpUCfYcz0UimZ8nJQQJ99CKACE1PydXJ3w3AAAAACOGw0Bl"
+deployment_name = "gpt-5-mini"
 text="""On a rocky island far from the shore, an old lighthouse keeper named Arthur lived with his loyal dog, Barnaby. Every evening, Arthur climbed the winding stairs to light the giant lamp, guiding ships safely past the sharp cliffs.
 One stormy night, the wind howled and the waves crashed violently against the tower. Suddenly, Arthur slipped on the wet stone steps and hurt his ankle, unable to reach the top.
 Seeing his master in trouble, Barnaby barked loudly and raced up the spiral staircase alone. The clever dog nudged the heavy brass lever with his nose until the bright beam flared to life across the dark ocean.
